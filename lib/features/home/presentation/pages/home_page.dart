@@ -15,10 +15,6 @@ class HomePage extends StatelessWidget {
             onPressed: () => context.go('/posts'),
             child: const Text('Posts'),
           ),
-          TextButton(
-            onPressed: () => context.go('/login'),
-            child: const Text('Login'),
-          ),
         ],
       ),
       body: const Center(
